@@ -1,0 +1,1 @@
+The goal of this mini project is to test and reinforce my understanding of the web development skills I have learned up until this point.
