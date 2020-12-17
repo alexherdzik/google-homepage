@@ -1,0 +1,20 @@
+.center {
+    text-align: center;
+}
+
+.container-logo {
+    margin-top: 90px;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.container-search {
+
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+}
