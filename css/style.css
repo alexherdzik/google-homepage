@@ -1,5 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .container-logo {
-    margin: 90px auto 15px;
+    margin: 130px auto 15px;
     width: 272px;
 }
 
@@ -49,9 +53,58 @@
   height: 36px;
   line-height: 27px;
   margin: 11px 6px;
-  padding: 0px 16px;
+  padding: 0 16px;
 }
 
 .btn:hover {
   border-color: #c6c6c6;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+.links-right {
+  align-items: center;
+  display: flex;
+}
+
+.hdr-link {
+  font-size: 13px;
+  color: rgba(0,0,0,.75);
+  text-decoration: none;
+}
+
+.hdr-link:not(:first-child) {
+  margin-left: 15px;
+}
+
+.hdr-link:hover {
+  text-decoration: underline;
+}
+
+.link-apps {
+  background-image: url("../images/icons.png");
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+.btn-primary {
+  background-color: #4387fd;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-left: 15px;
+  outline: none;
+  padding: 0 12px;
 }
